@@ -1,0 +1,7 @@
+module.exports = {
+  extends: ['next/core-web-vitals'],
+  rules: {
+    'react/display-name': 'warn',
+    '@next/next/no-html-link-for-pages': 'warn',
+  },
+};
